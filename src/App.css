@@ -1,0 +1,70 @@
+h1,
+p {
+    margin: 0
+}
+
+.header {
+    height: 65px;
+    background: linear-gradient(to right, rgba(103, 34, 128, 1), rgba(166, 38, 211, 1));
+    display: flex;
+    line-height: 65px;
+    justify-content: space-between;
+    color: white
+}
+
+.logo {
+    height: 26px;
+    width: 31px;
+    margin: 0 10px 0 20px;
+}
+
+.title {
+    position: absolute;
+    font-size: 20px;
+}
+
+.subTitle {
+    margin-right: 40px;
+    font-size: 12px;
+}
+
+/* form style */
+.form {
+    text-align: center;
+    margin: 36px;
+}
+
+.form--btn {
+    background: linear-gradient(to right, rgba(113, 31, 141, 1), rgba(168, 24, 218, 1));
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+}
+
+.form--btn:hover {
+    cursor: pointer;
+}
+
+.form--input1 {
+    margin-right: 17px;
+}
+
+.form--input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form--input1,.form--input2 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 35px;
+    width: 45%;
+    margin-bottom: 15px;
+}
+
+.meme--img {
+    width: 100%;
+    padding: 0 36px;
+}
